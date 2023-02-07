@@ -1,12 +1,13 @@
 #include <stdio.h>
-#include <unistd.h>
 /**
- * main - Entry point
- * Return:1
+ * main - Prints text to standard error
+ *
+ * Return: 1, error has been caught
  */
 int main(void)
 {
-char ch[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
-write(2, ch, sizeof(ch));
-return (1);
+	fprintf(stderr, "%s",
+	"and that piece of art is useful" "- Dora Korpar, 2015-10-19\n");
+
+	return (1);
 }
