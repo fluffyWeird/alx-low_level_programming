@@ -1,11 +1,9 @@
 #include <stdio.h>
-
 /**
  * main - Prints text to standard error
  *
  * Return: 1, error has been caught
  */
-
 int main(void)
 {
 	fprintf(stderr, "%s",
