@@ -13,7 +13,10 @@ int n = 'a';
 while (n <= 'z')
 {
 putchar(n);
+if(n=='z')
+{
 putchar('\n');
+}
 n++;
 }
 
