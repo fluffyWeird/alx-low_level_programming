@@ -13,7 +13,7 @@ int n = 'a';
 while (n <= 'z')
 {
 putchar(n);
-if(n=='z')
+if (n == 'z')
 {
 putchar('\n');
 }
