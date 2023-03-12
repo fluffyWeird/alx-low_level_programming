@@ -1,17 +1,18 @@
 #include <unistd.h>
 #include <stdio.h>
 /**
- * _putchar - writes the character c to stdout
+ * putcharo - writes the character c to stdout
  * @c: The character to print
- *
+ * main- main will printout the doc
+ * Description: main will take the void putcharo and print it
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void _putchar(void)
+void putcharo(char c[])
 {
-printf("_putchar\n");
+printf("%s \n", c);
 }
 int main(void)
 {
-	_putchar();
+	putcharo("_putchar");
 }
