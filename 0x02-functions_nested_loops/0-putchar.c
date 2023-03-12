@@ -7,10 +7,11 @@
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
-void _putchar()
+void _putchar(void)
 {
-	printf("_putchar\n");
+printf("_putchar\n");
 }
-int main(void){
+int main(void)
+{
 	_putchar();
 }
