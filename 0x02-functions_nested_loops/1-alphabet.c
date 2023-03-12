@@ -1,27 +1,20 @@
-#include <stdio.h>
-/**
- * print_alphabet- prints alphabets
- * Description: printing alphabets
- * returns alphabet
-*/
-void print_alphabet(char c)
-{
-putchar(c);
-}
-/**
- * main - main function
- * Description: printing alphabets
- * Return: 0;
-*/
+#include "holberton.h"
 
-int main(void)
+/**
+ * print_alphabet - Entry point
+ * Return:0
+ */
+
+void print_alphabet(void)
 {
-char c = 'a';
-while (c <= 'z')
-{
-print_alphabet(c);
-c++;
-}
-putchar('\n');
-return (0);
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		_putchar(c);
+		c++;
+
+	}
+	_putchar('\n');
+
 }
