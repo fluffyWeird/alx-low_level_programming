@@ -19,6 +19,5 @@ putchar('\n');
 }
 n++;
 }
-
 	return (0);
 }
