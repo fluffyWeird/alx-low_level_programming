@@ -3,8 +3,8 @@
 /**
  * putcharo - writes the character c to stdout
  * @c: The character to print
- * main- main will printout the doc
- * Description: main will take the void putcharo and print it
+ * main - main function printout the doc
+ * Description : main will take the void putcharo and print it or return 0
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
  */
@@ -15,5 +15,5 @@ printf("%s\n", c);
 int main(void)
 {
 	putcharo("_putchar");
-	return 0;
+	return (0);
 }
