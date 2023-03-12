@@ -10,9 +10,9 @@
  */
 void putcharo(char c[])
 {
-printf("%s \n", c);
+printf("%s\n", c);
 }
-int main()
+int main(void)
 {
 	putcharo("_putchar");
 	return 0;
