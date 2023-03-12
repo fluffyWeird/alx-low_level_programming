@@ -4,15 +4,9 @@
  * Description: printing alphabets
  * returns alphabet
 */
-void print_alphabet(void)
-{
-char c = 'a';
-while (c < 'z')
+void print_alphabet(char c)
 {
 putchar(c);
-c++;
-}
-putchar('\n');
 }
 /**
  * main- main function
@@ -21,6 +15,12 @@ putchar('\n');
 */
 int main(void)
 {
-print_alphabet();
+char c = 'a';
+while (c < 'z')
+{
+print_alphabet(c);
+c++;
+}
+putchar('\n');
 return (0);
 }
