@@ -9,10 +9,11 @@ void print_alphabet(char c)
 putchar(c);
 }
 /**
- * main- main function
+ * main - main function
  * Description: printing alphabets
  * Return: 0;
 */
+
 int main(void)
 {
 char c = 'a';
