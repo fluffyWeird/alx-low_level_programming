@@ -12,7 +12,8 @@ void putcharo(char c[])
 {
 printf("%s \n", c);
 }
-int main(void)
+int main()
 {
 	putcharo("_putchar");
+	return 0;
 }
