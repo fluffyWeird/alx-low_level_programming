@@ -17,7 +17,7 @@ putchar(c);
 int main(void)
 {
 char c = 'a';
-while (c < 'z')
+while (c <= 'z')
 {
 print_alphabet(c);
 c++;
