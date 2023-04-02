@@ -13,7 +13,7 @@ int _putchar(char c)
 }
 int main(void)
 {
-char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 int i;
 for (i = 0; i < sizeof(b); i++)
 _putchar(b[i]);
