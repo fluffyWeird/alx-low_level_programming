@@ -1,28 +1,15 @@
+#include <stdio.h>
+#include <string.h>
 #include <unistd.h>
-
-/**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
- *
- * main-printsout the document
- */
-int _putchar(char c)
-{
-return (write(1, &c, 1));
-}
-/**
- * main - prints out the document
- *
- * Return: 1
+/*
+ * main
+ * description - this will print out he main function
+ * Return : 0
  */
 int main(void)
 {
-char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-unsigned long int i;
-for (i = 0; i < sizeof(b); i++)
-_putchar(b[i]);
-return (1);
+write(1,
+"and that piece of art is useful\" - Dora Korpar, 2015-10-2019 \n",
+59);
+return (0);
 }
