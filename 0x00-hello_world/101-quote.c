@@ -24,7 +24,5 @@ char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
 unsigned long int i;
 for (i = 0; i < sizeof(b); i++)
 _putchar(b[i]);
-
-_putchar("\n");
 return (1);
 }
