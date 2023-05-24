@@ -20,9 +20,9 @@ return (write(1, &c, 1));
  */
 int main(void)
 {
-char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 unsigned long int i;
-for (i = 0; i <= sizeof(b); i++)
+for (i = 0; i < sizeof(b); i++)
 _putchar(b[i]);
 return (1);
 }
