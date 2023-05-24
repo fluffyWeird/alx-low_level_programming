@@ -6,16 +6,23 @@
  *
  * Return: On success 1.
  * On error, -1 is returned, and errno is set appropriately.
+ *
+ * main-printsout the document
  */
 int _putchar(char c)
 {
-	return (write(1, &c, 1));
+return (write(1, &c, 1));
 }
+/**
+ * main - prints out the document
+ *
+ * Return: 1
+ */
 int main(void)
 {
 char b[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
-for (long unsigned int i = 0; i <= sizeof(b); i++)
+unsigned long int i;
+for (i = 0; i <= sizeof(b); i++)
 _putchar(b[i]);
-return 1;
+return (1);
 }
-
