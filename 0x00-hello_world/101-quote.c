@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
-/*
- * main
- * description - this will print out he main function
- * Return : 0
+/**
+ * main - is a function that prints a string given in the parameter
+ * Return: 2
  */
 int main(void)
 {
